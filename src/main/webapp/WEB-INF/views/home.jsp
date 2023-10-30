@@ -17,7 +17,10 @@
 	<p>불필요한 내용</p>
 </body>
 <script>
-
+	var msg = "${msg}";
+	if(msg != ""){
+		alert(msg);
+	}
 
 </script>
 </html>
